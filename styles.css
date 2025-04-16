@@ -34,6 +34,10 @@ li {
     flex: 1;
 }
 
+.container {
+    padding: 50px 0;
+}
+
 .row  {
     width: 100%;
     max-width: 800px;
@@ -42,6 +46,14 @@ li {
 
 .text--purple {
     color: #8A2BE2;
+}
+
+section:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.section__title {
+    margin-bottom: 20px;
 }
 
 /* NAVIGATION BAR */
@@ -121,7 +133,8 @@ nav {
     width: 100%;
 
 
-/* Improving my own picture */
+/* IMPROVING MY OWN PICTURE */
+
 transform: scale (1.5);
 padding-bottom: 8px;
 }
@@ -146,4 +159,16 @@ padding-bottom: 8px;
     flex: 1;
     display: flex;
     align-items: center;
+    margin-top: 100px;
+}
+
+.about-me__img {
+    width: 100%;
+}
+
+/* TECH - STACK */
+
+.language__img {
+    width: 100%;
+    max-width: 100px;
 }
