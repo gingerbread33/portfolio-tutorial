@@ -155,6 +155,8 @@ padding-bottom: 8px;
     padding: 0 16px;
 }
 
+/* TODO: to shrink the image you will must add width to bellow class 
+Explenation: class acts as a wrapper for the image inside. If you change width of the wrapper, you will change its size.  */
 .about-me__img--container {
     flex: 1;
     display: flex;
